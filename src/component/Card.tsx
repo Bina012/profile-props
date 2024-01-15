@@ -12,7 +12,7 @@ const Card = (props: ProfileProps) => {
         <div className="profile">
             {props.profile.map((p) => (
                 <div className="profile-preview">
-                    <img src={p.img}></img>
+                    <img src={p.img} alt="images"></img>
                     <h5>{p.name}</h5>
                     <p>{p.bio}</p>
                     <p>{p.profession}</p>
